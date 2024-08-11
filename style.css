@@ -1,0 +1,160 @@
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #70AFE1;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+nav .logo img {
+    width: 60px;
+    height: auto;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li {
+    font-size: 16px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+nav .nav-links a:hover {
+    color: #0056b3;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .search input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
+}
+
+nav .search button {
+    padding: 8px 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav .search button:hover {
+    background-color: #00449e;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: black;
+}
+
+.hero .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero .hero-content p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hero .cta-button {
+    padding: 12px 30px;
+    background-color: white;
+    border: 2px solid #0056b3;
+    color: #0056b3;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.products h2 {
+    font-size: 36px;
+    color: #70AFE1;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item p {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
